@@ -13,7 +13,8 @@ Here is the super 8 test video clip scanned at 15 FPS:
 https://www.youtube.com/watch?v=7bXwQE2SyeU   
 
 ## Operating Instructions
-Download Release folder from the top of this page as a zip file to your locala work directory.  
+Download Release folder as a zip file by clicking on the Code button from the top of this page.   
+Download into your locala work directory.  
 Unzip it there.  
 Go to the release dir and double click on AmCap.exe   
 The main window will open.  

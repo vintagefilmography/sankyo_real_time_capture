@@ -5,93 +5,88 @@
 This project is based on a Sankyo projector and small web type camera.  
 Parts:  
 Sankyo1000 projector  
-The camera used is the usb web type camera custom designed speecifically for this application.  
+The camera used is the usb web type camera custom designed specifically for this application.  
 It has 1920x1080 resolution and it is capable of real time transfer.  
 Light  
-LED light with the diffuser for even light distribution over the entire framem.
-Here is the super 8 test video clipscanned at 15 FPS:  
+LED light with the diffuser for even light distribution over the entire frame.
+Here is the super 8 test video clip scanned at 15 FPS:  
 https://www.youtube.com/watch?v=7bXwQE2SyeU   
-tion
+
 ## Operating Instructions
-Download amcap folder from the top of this page as a zip file to your locala work directory.
-Unzip it there.
+Download amcap folder from the top of this page as a zip file to your locala work directory.  
+Unzip it there.  
 Go to the release dir and double click on AmCap.exe   
-The main window will open. 
+The main window will open.  
+![screen1](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/09983974-9ee7-44ed-8e7e-751a255339e8)  
 
-Set camera selection to 0 or 1 depending on your system. Have to move the slider to the right until the numbers show up.  
-Then back off the slider to get the roght selection.  
-Set fps to 18.
-Set the output file destination.
-Set width to 1500    Makae sure not to make mistakes here. Backspace dodes not work. Restart program if necessary.  
-Set height to 1000 Same as above. Backspace edoes nott work.  
-Press Start. The preview window will open up. Click Capture button. The output preview window will open up.
-Leave the cursor on the capture button and run the projector on lowest speed.  
-If running at lowest speed (may have to reset the rheostat stop screew for lowest speed) use an external fan   
-and point it to the rheostat to prevent ot from overheating.  
-Altenatively install a 150 Ohm 100W resistor in series with the rheostat slider terminal.  
-That shouldd give you a nice low FPS range 5-10 FPS.  
-Once done with the capture disconneect the arduino to prevent the mouse clicks. 
-Click the Stop button. Make sure not to click on the Start button. That wowuld erase output file.
-Once you click on the Stop button, rename the output file and  then you are done. 
+Select global shutter camera.  
+![screen2](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/31432177-792d-4b24-bf06-d58ea61afefd)   
+Open up video capture filter.  
+![screen3](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/b4812322-0bca-478c-beda-bf30eee6fdd3)  
+Select Camera Control tab.  
+Here you can change to auto or manual exposure.  
+Manual exposure is recommended.  
+It is to be noted that this screen can be envoked at any time during capture by pressing up arrow on the keyboard.  
+This allows for dynamic exposure change at any time during capture.  
+Set output frame ratae to 15.  
+![screen5](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/1a741eb8-49dd-4831-aec7-0d6521a3948e)  
+![screen6](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/5b482be2-e268-4174-b48d-42a687adceef)
+Turn preview on.  
+![screen7](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/b5dfb735-9e85-470e-95a3-6d5c262c856e)  
+The preview window should open.  
+![screen9](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/2edda9b2-7c0b-4870-aebd-e29851d7fd61)  
+Adjust focus by sliding the camera in and out of the projector lens mount barrel.  
+Pull out on the focus adjust knob to release the tension on the camera mount.  
+This will make the adjustment easier to do. 
+![screen10](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/96c1e6b2-c46a-439d-ae76-0a1c5af9ffa3)  
+Adjust the projector height by turning the projector height adjustment screw in and out to center the frame height in the   
+capture window. The projector height when adjustedd properly will make the projector weight push down onto the camera bottom post  
+so that the captured frame is right in the center of the capture window.  
+![screen11](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/dbf3b95c-0e63-4b4e-b1b0-185b029f04d4)  
+Start the capture.  
+![screen12](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/5bb53971-cb2d-4c95-b7f4-99318d242bf9)  
+Set output video file.  
+![screen13](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/de5209ed-7510-4460-97d2-f7a3f31f4f97)  
+Click OK when this window pops up.
+![screen14](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/f70f5417-bf1b-4405-aef5-2c292a1e8d5f)  
+Click OK again.  
+![screen15](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/76b3038c-7292-48cc-bf5a-9aa963c6efaf)  
+The capture process will start.
+Adjust the speed to just below the mid point. Roughly pointing between "o" and "w" of the "slow" label.
+If there is some flicker present then turn the speed up or down slightly until you get zero flicker.  
+Note that it some cases the flicker cannot be completely eliminated if the exposure is set too low.  
+In that case hit the Up arrow key and in the camera tab tweak the exposure higher and readjust the speed.  
+A fast way of changing the exposure can be achieved by clicking onto the exposure slider.  
+The slider will bee highlighted. Now just use the left and right arrow keys.  
+Once done  with the  film, click OK on the exposure window.  
+The window will close.  
+Stop the capture by clicking on the stop  pulldown.  
+![screen17](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/9fc70d23-b582-4c23-8853-8ff1a3ed9c58)  
+Turn the projector and light off.  
+Now you can precede with output video edit.  
+The video can be viewed as is, but some post processing could make the viewing
+experience more pleasant.
+Here are a few recommendations:
+-  Flip the video horizontally.
+-  Crop
+-  Frame interpolation will make panning much smoother.
 
-Postprocessing
-
-## Projector Mods
-The 3 blade shutter wheel has to be removed. This is a bit involved project and will not be detailed here at this time.
-The heat shield and the fan shroud also have to be removed to provide enough space for the trigger components.  
-Do not throw out any of the screws, you will need them later.
-Replace the lamap with the LED light. You will have to 3D print the lamp bracket from the mechanical folder here.
-It consists of two parts. Use 3mm screws. 
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/1ad04802-b6a0-44d5-931e-b37786adcc31)  
-
-Print the camera adapter and attach it to the camera using 2mm screws and nuts.
-Remove the old lens by pulling out on the focus knob (spring loaded) and by sliding the lensout. 
-Slide the ecamera assembly into the lens holder. Make sure to pull out on the focus knob during the process.
-If the camera fit is too tight then just send the adapter cylinder with sand paper.  
-Make sure that the part is cleaned up properly after the process.
-
-Install 150 Ohm 100W resistor in series with the rheostat slider to prevent the rheostat from overheating  
-at low speeds.  
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/65d95deb-7ef1-4ed7-8e5c-74b0ffb0ea51)  
-
-Print the trigger clip.
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/d1b65001-4008-4c6a-a58f-f7e946794a0c)  
-The trigger clip shaps onto the shutter wheel shaft as illustrated below.  
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/57ac097b-96cb-42f6-8b7b-f1334ac37d5b)  
-The trigger will have to be aligned properly once the trigger board is in place.
-Order the trigger  board by contacting Stan Jelavic. You can send thee provate message in the forum.  
-https://8mmforum.film-tech.com/vbb/forum/film-to-digital-conversion/86933-sankyo-projector-with-webcam-7fps-hd-resolution-synchronous-capture  
-If you decide to make your own then send a message to Stan for the schematic info.
-Connect the Arduino to the triggeer board.  
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/83f7389f-189d-4bb6-b61d-45b5ed046067)  
-Slide the arduino from the front of the unit through the heatshield cutout towards the back of the unit.  
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/f4165852-ab97-400b-b102-f07795059ccc)
-
-
-Align the trigger tab with the optocoupler bt sliding the trigger clip along the shaft.  
-Additional trigger advance adjustment will be needed later.  
-Mount the ardduino board in the top section of the unit just underneath the termnal strip.  
-![image](https://github.com/vintagefilmography/sankyo_with_elp_camera/assets/48537944/ff0861ba-896d-40b2-91b5-2a38d681b046)  
-Make sure interconnect are dressed up nice and that theye are not interfering with any of the moving parts.  
-Load thee film in.  
-Advance the film manually by rotating the fan by pushing down on the fins.  
-Adjust the trigger clip so that it is engaging the optocoupler roughly 10 degrees beefore the film starts moving down. 
-This will have to be readjusted lated during capture so that it results in minimum flicker.  
-Connect the arduino to the PC and program it with the arduino sw included here.  
-Download cinecamV3 PC windows capture program from this site.  
-Connect the arduino and the camera to the PC. Make sure that the trigger is not triggering the optocoupler  
-since this could cause random mouse clicks.   
-Run the cinecam program by executing the .exe file in the release directory.  
-
-
-
-
+## Postproceessing
 Avisynth can be used for some postporcessig.  Get Avisynth from:
 https://sourceforge.net/projects/avisynth2/
-Here is the avisynth home page. You can skip it for now. It is just for your reference. http://avisynth.nl/index.php/Main_Page
+For help with Avisynth refer to:  
+http://avisynth.nl/index.php/Main_Page  
 Avisynth does not run as a standalone application. It is a tool that allows video editors and viewers to run the script.
 The script is essentially a text file that contains avisynth commands for video processing.
 One video tool that is very handy for video processing is called VirtualDub.
 In addition to basic video processing, VirtialDub reads the avisynth script as well.
 Download VirtualDub from here:
 https://sourceforge.net/projects/vdfiltermod/files/  
+A few useful scripts will be added here in the neext rev of this doc.
+
+## Projector Mods
+The projector lamp was replaced with the LED light. 
+A custom mount was added so that the light fits nicely in the lamp compartment. 
+A custom comact camera was used with a custom mount adapter.  
+A single high quality custom designed lens was utilized which providddes very sharp image   
+accross  the whole frame and very pleasant colors.

@@ -53,7 +53,7 @@ Click OK when this window pops up.
 Click OK again.  
 ![screen15](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/76b3038c-7292-48cc-bf5a-9aa963c6efaf)  
 The capture process will start.
-Adjust the speed to just below the mid point. Roughly pointing between "o" and "w" of the "slow" label.
+Adjust the speed by turning the speed d knob past the midd point roughly pointing to the center of the "FAST" label.
 If there is some flicker present then turn the speed up or down slightly until you get zero flicker.  
 Note that it some cases the flicker cannot be completely eliminated if the exposure is set too low.  
 In that case hit the Up arrow key and in the camera tab tweak the exposure higher and readjust the speed.  

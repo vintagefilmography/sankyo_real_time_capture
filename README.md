@@ -10,8 +10,33 @@ It has 1920x1080 resolution and it is capable of real time transfer.
 Light  
 LED light with the diffuser for even light distribution over the entire frame.
 Here is the super 8 test video clip scanned at 15 FPS:  
-https://www.youtube.com/watch?v=7bXwQE2SyeU   
+https://www.youtube.com/watch?v=7bXwQE2SyeU  
 
+## Setting up  
+Remove the items from the box.  
+Plug the LED lights into computer USB to charge them up since they were only partially charged before shipping.  
+Note: the charging cable has a magnetic connector that engages with the LED charging port.
+Set the projector on a flat surface.  
+Remove the projector lens by pulling put on the focus control and slide the lens out.  
+Slide the camera into the projector lens holder while pulling out on the focus control at the same time. 
+Make sure the camera support post is straight. It should be barely touching the surface.  
+Make sure the camera is  all the way in. 
+Plug the projector in.   
+Plug the camera into the computer USB port. Turn off all running apps and disconnect from WIFI.  
+Feed the film in. 
+Turn the LED light by holding the side button. The light should turn on. Another press will increase brightness.  
+If you continue pressing the button, the unit will cycle through several brightness levels.  
+Leave it at the lowest.  
+Holding the button will turn the unit off.  
+Install the light in the place where the old light goes. It should fit in with the botton in the socket hole  
+and the housing fitting into the heat shield recess.  
+Run amcap.exe and turn the preview on as per the instructions below.  
+Note, you may neeed to advance the film a bit to making sure that the shutter is not coverineg the light.  
+The film frame should be displayed on the computer screen. Adjust focus by sliding the camera in and out while  
+pulling on the focus control.  
+If the frame is tilted , adjust it by rotating the camera a bit.  
+If the frame is too high or low, adjust it by turning the projector front height adjustment on the bottom of the projector.
+Now you are reeady to run the capture. Follow the instructions below.
 ## Operating Instructions
 Download Release folder as a zip file by clicking on the Code button from the top of this page.   
 Download into your locala work directory.  

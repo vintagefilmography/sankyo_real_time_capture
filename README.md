@@ -18,8 +18,10 @@ Plug the LED lights into computer USB to charge them up since they were only par
 Note: the charging cable has a magnetic connector that engages with the LED charging port.
 Set the projector on a flat surface.  
 Remove the projector lens by pulling put on the focus control and slide the lens out.  
-Slide the camera into the projector lens holder while pulling out on the focus control at the same time. 
-Make sure the camera support post is straight. It should be barely touching the surface.  
+Slide the camera into the projector lens holder while pulling out on the focus control at the same time.   
+Slide the new camera lens barrel into the projector leens holder. Make sure the camera is oriented correctly.  
+See the picture below.  
+![camera_orient](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/d8718449-f542-4146-a56c-7f108a2ac917)  
 Make sure the camera is  all the way in. 
 Plug the projector in.   
 Plug the camera into the computer USB port. Turn off all running apps and disconnect from WIFI.  
@@ -28,16 +30,16 @@ Turn the LED light by holding the side button. The light should turn on. Another
 If you continue pressing the button, the unit will cycle through several brightness levels.  
 Leave it at the lowest.  
 Holding the button will turn the unit off.  
-Install the light in the place where the old light goes. It should fit in with the botton in the socket hole  
+Install the light in the place where the old light goes. It should fit in with the bottom in the socket hole  
 and the housing fitting into the heat shield recess.  
 Run amcap.exe and turn the preview on as per the instructions below.  
-Note, you may neeed to advance the film a bit to making sure that the shutter is not coverineg the light.  
+Note, you may need to advance the film a bit to making sure that the shutter is not coverineg the light.  
 The film frame should be displayed on the computer screen. Adjust focus by sliding the camera in and out while  
 pulling on the focus control.  
 If the frame is tilted , adjust it by rotating the camera a bit.  
-If the frame is too high or low, adjust it by turning the projector front height adjustment on the bottom of the projector.
 Now you are reeady to run the capture. Follow the instructions below.
-## Operating Instructions
+
+## Operating Instructions  
 Download Release folder as a zip file by clicking on the Code button from the top of this page.   
 Download into your locala work directory.  
 Unzip it there.  

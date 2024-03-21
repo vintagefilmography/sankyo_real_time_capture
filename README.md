@@ -18,7 +18,8 @@ Plug the LED lights into computer USB to charge them up since they were only par
 Note: the charging cable has a magnetic connector that engages with the LED charging port.
 Set the projector on a flat surface.  
 Remove the projector lens by pulling put on the focus control and slide the lens out.  
-Slide the camera into the projector lens holder while pulling out on the focus control at the same time.   
+Rremove the egreen dust cap from the camera lens tube.  
+Slide the camera into the projector lens holder while pulling out on the focus control at the same time. 
 Slide the new camera lens barrel into the projector leens holder. Make sure the camera is oriented correctly.  
 See the picture below.  
 ![camera_orient](https://github.com/vintagefilmography/sankyo_real_time_capture/assets/48537944/d8718449-f542-4146-a56c-7f108a2ac917)  
